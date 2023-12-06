@@ -1,10 +1,16 @@
-import { useState } from 'react'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Countries from './Components/Countries/Countries'
 
-  
+function App() {
+  return (
+    <>
+     
+    <h1>World Tour</h1>
+    <Countries></Countries>
+    
+    </>
+  )
 }
 
 export default App
